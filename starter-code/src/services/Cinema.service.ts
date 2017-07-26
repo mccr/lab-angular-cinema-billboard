@@ -8,15 +8,15 @@ export class Movie {
 @Injectable()
 export class Cinema {
     movies: Array<Movie> = moviesSample;
-    
+
     constructor() { }
 
     getMovies() {
       return this.movies;
     }
 
-    getMovie(id:number) {
-      this.movies.forEach( movie => {
+    getMovie(id:number): any {
+      return this.movies.forEach( movie => {
         if(movie.id === id) return movie;
       });
     }

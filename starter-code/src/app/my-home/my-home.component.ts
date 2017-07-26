@@ -16,5 +16,4 @@ export class MyHomeComponent implements OnInit {
   ngOnInit() {
     this.movies = this.service.getMovies();
   }
-
 }
