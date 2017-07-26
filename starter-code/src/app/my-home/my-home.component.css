@@ -1,0 +1,14 @@
+.position {
+  display: flex;
+  flex-wrap: wrap;
+}
+div {
+  color: #FABADA;
+  text-align: center;
+  margin: 10px;
+  width: 200px;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
